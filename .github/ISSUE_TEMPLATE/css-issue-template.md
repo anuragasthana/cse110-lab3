@@ -2,8 +2,8 @@
 name: CSS Issue Template
 about: Show changes in CSS through Selector Type
 title: ''
-labels: Attribute Selector, Class Selector, Element Selector, ID Selector, Pseudo-Class
-  Selector, Universal Selector
+labels: Class Selector, ID Selector, Universal Selector, Element Selector, Attribute
+  Selector, Pseudo-Class Selector, Inline CSS, External CSS, Internal CSS
 assignees: anuragasthana
 
 ---
