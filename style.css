@@ -1,7 +1,31 @@
+* {
+    align-items: center;
+}
+
 body {
-    background-color: EBCFBB;
+    text-decoration: lavender;
 }
 
 .navbar {
     text-align: center;
+}
+
+#pizzaform {
+    color: rgb(255, 255, 255);
+}
+
+i[class="ital"] {
+    color: #FFFFFF;
+}
+
+table {
+    background-color: lightseagreen;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5px;
+    border-radius: 0.5px;
+}
+
+h1, h2, h3, p {
+    font-family: 'Lato', sans-serif;
 }
