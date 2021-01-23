@@ -8,10 +8,20 @@ body {
 
 .navbar {
     text-align: center;
+    position: relative;
+}
+
+a:hover {
+    color: white;
+}
+
+nav:active {
+    color: white;
 }
 
 #pizzaform {
     color: rgb(255, 255, 255);
+    padding: top right bottom left 0.5em;
 }
 
 i[class="ital"] {
@@ -24,8 +34,63 @@ table {
     border-color: white;
     border-width: 0.5px;
     border-radius: 0.5px;
+    display: inline-block;
+    position: static;
 }
 
-h1, h2, h3, p {
+tr {
+    margin: top right bottom left 0.5em;
+    padding-top: 0.5em;
+}
+
+h1, h2, h3, p, i , b {
     font-family: 'Lato', sans-serif;
+}
+
+main section{
+    margin-bottom: auto;
+}
+
+form > label {
+    font-weight: bolder;
+}
+
+i + p {
+    text-align: center;
+}
+
+label ~ form {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: grid;
+    flex-direction: initial;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+header.head, footer.foot {
+    font-size: larger;
+}
+
+img {
+    width: 400px;
+}
+
+fieldset {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width:700px){
+    body * {
+        max-width: 200px;
+    }
 }
