@@ -1,5 +1,14 @@
 # Standup Notes Template
 
+Group Name + Date
+
+Members Present:
+- (Person 1)
+- (Person 2)
+- (Person 3)
+
+Meeting objective:
+
 ## What did you accomplish yesterday?
 - (Person 1): ...
 - (Person 2): ...
